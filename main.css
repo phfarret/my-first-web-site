@@ -1,0 +1,82 @@
+*{
+    
+    box-sizing: border-box;
+    padding: 10px 50px 10px 50px;
+    font-size: 24px;
+    font-style: normal;
+    /* background-image: url(/images/gauchos_na_faca.png);  */
+}
+body {
+    background: url(/images/gauchos_na_faca.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 50px;
+    
+}
+h1 {
+    color: rgb(101, 112, 4);
+    font-size: 48px;
+}
+h2{
+    color: rgb(101, 112, 4);
+    font-size: 48px;
+}
+h3{
+    color: rgb(101, 112, 4);
+    font-size: 32px;
+}
+h4{
+    color: rgb(101, 112, 4);
+    font-size: 28 px;
+}
+
+.large{
+    font-size: 50;
+}
+.container{
+    text-align: center;
+
+}
+.smaller{
+    height: 500px;
+    width: 430px;
+    
+}
+.pritty{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(114, 29, 29);
+    height: 100px;
+    border-style:outset;
+    border-color: crimson;
+    border-width: 10px;
+}
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+#nav a:hover {
+ color: crimson;
+}
+.centrelize{
+    text-align: center;
+}
+.backwhite{
+    background-color: rgb(255, 255, 255, 0.5);
+}
+.cent_whi{
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    
+}
